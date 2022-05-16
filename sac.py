@@ -175,7 +175,7 @@ class SAC:
                         a, _ = self.actor(torch.tensor(o, dtype=torch.float, device=self.device).unsqueeze(0))
                     a = a.cpu().numpy()[0]
                 else:
-                    a = np.random.uniform(self.env.action_low, self.env.action_high, size=self.env.action_size)
+                    a = np.random.uniform(-1.0, 1.0, size=self.env.action_size)
 
                 o_1, r, done = process_observation(self.env.step(a), self.env.simulator)
 
@@ -290,24 +290,18 @@ def make_env(env_seed):
     # env.seed(env_seed)
     # env.state_size = 24
     # env.action_size = 4
-    # env.action_low = -1
-    # env.action_high = 1
     # env.simulator = "gym"
 
     # from dm_control import suite
     # env = suite.load(domain_name="reacher", task_name="hard", task_kwargs={'random': env_seed})
     # env.state_size = 6
     # env.action_size = 2
-    # env.action_low = -1
-    # env.action_high = 1
     # env.simulator = "dm_control"
 
     from dm_control import suite
     env = suite.load(domain_name="cartpole", task_name="swingup", task_kwargs={'random': env_seed})
     env.state_size = 5
     env.action_size = 1
-    env.action_low = -1
-    env.action_high = 1
     env.simulator = "dm_control"
     
     return env
