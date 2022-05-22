@@ -12,7 +12,7 @@ A clean and minimal implementation of SAC (Soft Actor Critic) algorithm in Pytor
 <p align="center" width="100%">
 <img src=".media/sac_cartpole_swingup.png" width="50%" height="50%"/>
 </p>
-
+<br>
 <p align="center" width="100%">
 <img src=".media/sac_cartpole_swingup.gif" width="50%" height="50%"/>
 </p>
@@ -22,7 +22,7 @@ A clean and minimal implementation of SAC (Soft Actor Critic) algorithm in Pytor
 <p align="center" width="100%">
 <img src=".media/sac_reacher_hard.png" width="50%" height="50%"/>
 </p>
-
+<br>
 <p align="center" width="100%">
 <img src=".media/sac_reacher_hard.gif" width="50%" height="50%"/>
 </p>
@@ -32,7 +32,7 @@ A clean and minimal implementation of SAC (Soft Actor Critic) algorithm in Pytor
 <p align="center" width="100%">
 <img src=".media/sac_bipedal_walker.png" width="50%" height="50%"/>
 </p>
-
+<br>
 <p align="center" width="100%">
 <img src=".media/sac_bipedal_walker.gif" width="50%" height="50%"/>
 </p>
