@@ -13,9 +13,9 @@ A clean and minimal implementation of SAC (Soft Actor Critic) algorithm in Pytor
 <img src=".media/sac_cartpole_swingup.png" width="50%" height="50%">
 </p>
 
-<!-- <p align="center">
+<p align="center">
 <img src=".media/sac_cartpole_swingup.gif" width="50%" height="50%">
-</p> -->
+</p>
 
 * Reacher Hard ([Deepmind Control Suite](https://github.com/deepmind/dm_control/tree/master/dm_control/suite)) - Control a two-link robotic arm to reach a randomized target location.
 
@@ -23,9 +23,9 @@ A clean and minimal implementation of SAC (Soft Actor Critic) algorithm in Pytor
 <img src=".media/sac_reacher_hard.png" width="50%" height="50%">
 </p>
 
-<!-- <p align="center">
+<p align="center">
 <img src=".media/sac_reacher_hard.gif" width="50%" height="50%">
-</p> -->
+</p>
 
 * [Bipedal Walker](https://gym.openai.com/envs/BipedalWalker-v2/) (OpenAI Gym) - Train a bipedal robot to walk.
 
@@ -33,7 +33,7 @@ A clean and minimal implementation of SAC (Soft Actor Critic) algorithm in Pytor
 <img src=".media/sac_bipedal_walker.png" width="50%" height="50%">
 </p>
 
-<!-- <p align="center">
+<p align="center">
 <img src=".media/sac_bipedal_walker.gif" width="50%" height="50%">
-</p> -->
+</p>
  
