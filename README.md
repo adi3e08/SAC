@@ -9,13 +9,13 @@ A clean and minimal implementation of SAC (Soft Actor Critic) algorithm in Pytor
 
 * Cartpole Swingup ([Deepmind Control Suite](https://github.com/deepmind/dm_control/tree/master/dm_control/suite)) - Swing up and balance an unactuated pole by applying forces to a cart at its base.
 
-<p style="text-align:justify">
+<div style="text-align: center;">
 	<img src=".media/sac_cartpole_swingup.png" width="50%" height="50%">
-</p>
+</div>
 
-<p style="text-align:justify">
+<div style="text-align: center;">
 	<img src=".media/sac_cartpole_swingup.gif" width="50%" height="50%">
-</p>
+</div>
 
 * Reacher Hard ([Deepmind Control Suite](https://github.com/deepmind/dm_control/tree/master/dm_control/suite)) - Control a two-link robotic arm to reach a randomized target location.
 
