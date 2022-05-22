@@ -27,7 +27,6 @@ A clean and minimal implementation of SAC (Soft Actor Critic) algorithm in Pytor
 <img src=".media/sac_reacher_hard.gif" width="50%" height="50%"/>
 </p>
 
-
 * [Bipedal Walker](https://gym.openai.com/envs/BipedalWalker-v2/) (OpenAI Gym) - Train a bipedal robot to walk.
 
 <p align="center">
