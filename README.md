@@ -9,9 +9,9 @@ A clean and minimal implementation of SAC (Soft Actor Critic) algorithm in Pytor
 
 * Cartpole Swingup ([Deepmind Control Suite](https://github.com/deepmind/dm_control/tree/master/dm_control/suite)) - Swing up and balance an unactuated pole by applying forces to a cart at its base.
 
-<p align="center">
+<!-- <p align="center">
 <img src=".media/sac_cartpole_swingup.png" width="50%" height="50%">
-</p>
+</p> -->
 
 <p align="center">
 <img src=".media/sac_cartpole_swingup.gif" width="50%" height="50%">
