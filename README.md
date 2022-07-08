@@ -1,4 +1,5 @@
-# A clean and minimal implementation of Soft Actor-Critic (SAC) algorithm in Pytorch, for continuous action spaces.
+# Soft Actor-Critic (SAC)
+A clean and minimal implementation of Soft Actor-Critic (SAC) algorithm in Pytorch, for continuous action spaces.
 
 ## References
 * "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor", Haarnoja et al. [Link](https://arxiv.org/abs/1801.01290).
