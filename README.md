@@ -3,7 +3,7 @@ This repository contains a clean and minimal implementation of Soft Actor-Critic
 
 SAC is a state-of-the-art model-free deep RL algorithm for continuous action spaces. It adopts an off-policy actor-critic approach and uses stochastic policies. SAC uses the maximum entropy formulation to achieve exploration.
 
-You can find more details about how SAC works in my accompanying blog post [here](https://adi3e08.github.io/posts/2021/12/soft-actor-critic/).
+You can find more details about how SAC works in my accompanying blog post [here](https://adi3e08.github.io/blog/sac/).
 
 ## References
 * "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor", Haarnoja et al. [Link](https://arxiv.org/abs/1801.01290).
@@ -31,7 +31,7 @@ You can find more details about how SAC works in my accompanying blog post [here
 <img src=".media/sac_reacher_hard.gif" width="50%" height="50%">
 </p>
 
-* [Bipedal Walker](https://gym.openai.com/envs/BipedalWalker-v2/) (OpenAI Gym) - Train a bipedal robot to walk.
+* [Bipedal Walker](https://www.gymlibrary.dev/environments/box2d/bipedal_walker/) (OpenAI Gym) - Train a bipedal robot to walk.
 
 <p align="center">
 <img src=".media/sac_bipedal_walker.png" width="50%" height="50%">
