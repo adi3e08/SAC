@@ -6,8 +6,8 @@ SAC is a state-of-the-art model-free deep RL algorithm for continuous action spa
 You can find more details about how SAC works in my accompanying blog post [here](https://adi3e08.github.io/blog/sac/).
 
 ## References
-* "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor", Haarnoja et al. [Link](https://arxiv.org/abs/1801.01290).
-* "Soft Actor-Critic Algorithms and Applications", Haarnoja et al. [Link](https://arxiv.org/abs/1812.05905).
+* Tuomas Haarnoja, Aurick Zhou, Pieter Abbeel, and Sergey Levine. Soft actor-critic: Off-policy maximum entropy deep reinforcement learning with a stochastic actor. In International conference on machine learning, pages 1861–1870. PMLR, 2018a. [Link](https://arxiv.org/abs/1801.01290)
+* Tuomas Haarnoja, Aurick Zhou, Kristian Hartikainen, George Tucker, Sehoon Ha, Jie Tan, Vikash Kumar, Henry Zhu, Abhishek Gupta, Pieter Abbeel, et al. Soft actor-critic algorithms and applications. arXiv preprint arXiv:1812.05905, 2018b. [Link](https://arxiv.org/abs/1812.05905)
 
 ## Tested on
 
