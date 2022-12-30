@@ -125,13 +125,13 @@ class SAC:
             self.critic_target_2 = deepcopy(self.critic_2)       
             self.critic_loss_fn_2 =  torch.nn.MSELoss()
 
+            # set target entropy to -|A|
+            self.target_entropy = - self.action_size
+
             path = "./log/"+self.arglist.domain+"_"+self.arglist.task
             self.exp_dir = os.path.join(path, "seed_"+str(self.arglist.seed))
             self.model_dir = os.path.join(self.exp_dir, "models")
             self.tensorboard_dir = os.path.join(self.exp_dir, "tensorboard")
-
-            # set target entropy to -|A|
-            self.target_entropy = - self.action_size
 
             if self.arglist.resume:
                 checkpoint = torch.load(os.path.join(self.model_dir,"backup.ckpt"))
