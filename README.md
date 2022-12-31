@@ -14,32 +14,24 @@ I trained SAC on a few continuous control tasks from [Deepmind Control Suite](ht
 
 * Cartpole Swingup : Swing up and balance an unactuated pole by applying forces to a cart at its base.
 <p align="center">
-<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_cartpole_swingup.png" width="50%" height="50%"/>
-</p>
-<p align="center">
-<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_cartpole_swingup.gif" width="50%" height="50%"/>
+<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_cartpole_swingup.png" width="40%" height="40%"/>
+<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_cartpole_swingup.gif" width="40%" height="40%"/>
 </p>
 
 * Reacher Hard : Control a two-link robotic arm to reach a randomized target location.
 <p align="center">
-<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_reacher_hard.png" width="50%" height="50%"/>
-</p>
-<p align="center">
-<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_reacher_hard.gif" width="50%" height="50%"/>
+<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_reacher_hard.png" width="40%" height="40%"/>
+<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_reacher_hard.gif" width="40%" height="40%"/>
 </p>
 
 * Cheetah Run : Control a planar biped to run.
 <p align="center">
-<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_cheetah_run.png" width="50%" height="50%"/>
-</p>
-<p align="center">
-<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_cheetah_run.gif" width="50%" height="50%"/>
+<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_cheetah_run.png" width="40%" height="40%"/>
+<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_cheetah_run.gif" width="40%" height="40%"/>
 </p>
 
 * Walker Run : Control a planar walker to run.
 <p align="center">
-<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_walker_run.png" width="50%" height="50%"/>
-</p>
-<p align="center">
-<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_walker_run.gif" width="50%" height="50%"/>
+<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_walker_run.png" width="40%" height="40%"/>
+<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_walker_run.gif" width="40%" height="40%"/>
 </p>
