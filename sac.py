@@ -349,7 +349,7 @@ def parse_args():
     parser.add_argument("--mode", type=str, default="", help="train or eval")
     parser.add_argument("--episodes", type=int, default=0, help="number of episodes")
     parser.add_argument("--seed", type=int, default=0, help="seed")
-    # Train settings
+    # Core training parameters
     parser.add_argument("--resume", action="store_true", default=False, help="resume training")
     parser.add_argument("--lr", type=float, default=3e-4, help="actor, critic learning rate")
     parser.add_argument("--gamma", type=float, default=0.99, help="discount factor")
