@@ -342,7 +342,7 @@ class SAC:
         return ep_r_list
 
 def parse_args():
-    parser = argparse.ArgumentParser("Soft Actor-Critic")
+    parser = argparse.ArgumentParser("SAC")
     # Common settings
     parser.add_argument("--domain", type=str, default="", help="cartpole / reacher")
     parser.add_argument("--task", type=str, default="", help="swingup / hard")
