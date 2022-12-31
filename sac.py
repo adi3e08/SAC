@@ -109,10 +109,7 @@ class SAC:
         self.obs_size = np.sum([math.prod(obs_spec[k].shape) for k in obs_spec])
         self.action_size = math.prod(action_spec.shape)
 
-        if self.arglist.use_gpu:
-            self.device = torch.device("cuda:0")
-        else:
-            self.device = torch.device("cpu")
+        self.device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
 
         self.actor = Pi_FC(self.obs_size,self.action_size).to(self.device)
 
@@ -353,7 +350,6 @@ def parse_args():
     parser.add_argument("--task", type=str, default="", help="swingup / hard")
     parser.add_argument("--mode", type=str, default="", help="train or eval")
     parser.add_argument("--episodes", type=int, default=0, help="number of episodes")
-    parser.add_argument("--use-gpu", action="store_true", default=False, help="use gpu")
     parser.add_argument("--seed", type=int, default=0, help="seed")
     # Train settings
     parser.add_argument("--resume", action="store_true", default=False, help="resume training")
