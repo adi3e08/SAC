@@ -325,7 +325,7 @@ class SAC:
                     plt.pause(0.01)
                     plt.draw()
                     if save_video:
-                        plt.savefig(folder + "/file%04d.png" % t)
+                        plt.savefig(folder + "/file%04d.png" % t, bbox_inches='tight')
                         t += 1
                 ep_r += r
                 o = o_1
@@ -339,7 +339,7 @@ class SAC:
             print("Average return :",np.mean(ep_r_list))
             if save_video:
                 os.chdir(folder)
-                subprocess.call(['ffmpeg', '-i', 'file%04d.png','-r','10','-pix_fmt', 'yuv420p','video.mp4'])
+                subprocess.call(['ffmpeg', '-i', 'file%04d.png','-r','10','-vf','pad=ceil(iw/2)*2:ceil(ih/2)*2','-pix_fmt', 'yuv420p','video.mp4'])
                 for file_name in glob.glob("*.png"):
                     os.remove(file_name)
                 subprocess.call(['ffmpeg','-i','video.mp4','video.gif'])
