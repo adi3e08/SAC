@@ -34,11 +34,13 @@ I trained SAC on a few continuous control tasks from [Deepmind Control Suite](ht
 
 ## Usage
 To train SAC on Walker Run task, run,
+
     python sac.py --domain walker --task run --mode train --episodes 3000 --use-gpu --seed 0 
 
 The data from this experiment will be stored in the folder "./log/walker_run/seed_0". This folder will contain two sub folders, (i) models : here model checkpoints will be stored and (ii) tensorboard : here tensorboard plots will be stored.
 
 To evaluate SAC on Walker Run task, run,
+
     python sac.py --domain walker --task run --mode eval --episodes 3 --use-gpu --seed 100 --checkpoint ./log/walker_run/seed_0/models/3000.ckpt --render
 
 ## References
