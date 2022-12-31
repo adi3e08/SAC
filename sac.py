@@ -150,9 +150,7 @@ class SAC:
 
                 self.replay_buffer = ReplayBuffer(self.arglist.replay_size, self.device)
 
-                if os.path.exists(path):
-                    pass            
-                else:
+                if not os.path.exists(path):
                     os.makedirs(path)
                 os.mkdir(self.exp_dir)
                 os.mkdir(self.tensorboard_dir)
@@ -224,7 +222,7 @@ class SAC:
 
                 o_1, r, done = process_observation(self.env.step(a))
 
-                self.replay_buffer.push(o, a, r, o_1) # no terminal state in infinite-horizon formulation
+                self.replay_buffer.push(o, a, r, o_1)
 
                 ep_r += r
                 o = o_1
