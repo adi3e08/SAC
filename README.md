@@ -34,12 +34,12 @@ I trained SAC on a few continuous control tasks from [Deepmind Control Suite](ht
 
 ## Usage
 To train SAC on Walker Run task, run,
-	python sac.py --domain walker --task run --mode train --episodes 3000 --use-gpu --seed 0 
+    python sac.py --domain walker --task run --mode train --episodes 3000 --use-gpu --seed 0 
 
 The data from this experiment will be stored in the folder "./log/walker_run/seed_0". This folder will contain two sub folders, (i) models : here model checkpoints will be stored and (ii) tensorboard : here tensorboard plots will be stored.
 
 To evaluate SAC on Walker Run task, run,
-	python sac.py --domain walker --task run --mode eval --episodes 3 --use-gpu --seed 100 --checkpoint ./log/walker_run/seed_0/models/3000.ckpt --render
+    python sac.py --domain walker --task run --mode eval --episodes 3 --use-gpu --seed 100 --checkpoint ./log/walker_run/seed_0/models/3000.ckpt --render
 
 ## References
 * Tuomas Haarnoja, Aurick Zhou, Pieter Abbeel, and Sergey Levine. Soft actor-critic: Off-policy maximum entropy deep reinforcement learning with a stochastic actor. In International conference on machine learning, pages 1861–1870. PMLR, 2018a. [Link](https://arxiv.org/abs/1801.01290)
