@@ -32,6 +32,14 @@ I trained SAC on a few continuous control tasks from [Deepmind Control Suite](ht
 <img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_walker_run.gif" width="30%"/>
 </p>
 
+## Requirements
+- Python
+- Numpy
+- Pytorch
+- Tensorboard
+- Matplotlib
+- Deepmind Control Suite
+
 ## Usage
 To train SAC on Walker Run task, run,
 
