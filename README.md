@@ -1,5 +1,5 @@
 # Soft Actor-Critic (SAC)
-This repository contains a clean and minimal implementation of Soft Actor-Critic (SAC) algorithm in Pytorch, for continuous action spaces.
+This repository contains a clean and minimal implementation of Soft Actor-Critic (SAC) algorithm in Pytorch.
 
 SAC is a state-of-the-art model-free RL algorithm for continuous action spaces. It adopts an off-policy actor-critic approach and uses stochastic policies. It uses the maximum entropy formulation to achieve better exploration.
 
