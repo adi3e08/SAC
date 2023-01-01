@@ -14,7 +14,7 @@ I trained SAC on a few continuous control tasks from [Deepmind Control Suite](ht
 <img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_cartpole_swingup.gif" width="31%"/>
 </p>
 
-* Reacher Hard : Control a two-link robotic arm to reach a randomized target location.
+* Reacher Hard : Control a two-link robotic arm to reach a random target location.
 <p align="center">
 <img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_reacher_hard.png" width="40%"/>
 <img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_reacher_hard.gif" width="31%"/>
