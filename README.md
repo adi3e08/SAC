@@ -26,10 +26,16 @@ I trained SAC on a few continuous control tasks from [Deepmind Control Suite](ht
 <img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_cheetah_run.gif" width="30%"/>
 </p>
 
-* Walker Run : Control a planar walker to run.
+* Walker Run : Control a planar biped to run.
 <p align="center">
 <img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_walker_run.png" width="40%"/>
 <img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_walker_run.gif" width="30%"/>
+</p>
+
+* Humanoid Walk : Control a simplified humanoid to walk.
+<p align="center">
+<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_humanoid_walk.png" width="40%"/>
+<img src="https://adi3e08.github.io/files/blog/soft-actor-critic/imgs/sac_humanoid_walk.gif" width="30%"/>
 </p>
 
 ## Requirements
